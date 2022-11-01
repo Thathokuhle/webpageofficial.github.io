@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signinSty.css">
+    <title>Signin</title>
+</head>
+<body>
+
+    <img src="IMG-20220816-WA0058.jpg" alt="" height="105px">
+    <p class="mut"><b>Welcome Mut Books</b></p>
+        <img src="1660171645693.jpg" alt="" width="1100px">              
+
+    <p><a href="web.html"><b>Home</b></a></p>
+    <nav>
+        <b><label for="text">Register:</label></b>
+        <br>
+        <br>
+        <form name="myF" action="action_page.php" onsubmit="return validateForm2()" method="post" >
+        <fieldset>
+            <legend><b>Registered Users :</b></legend>
+           <small> Please use the login screen below if you already have the appropriate login information. If not, please contact your system administrator.</small>
+            <br>
+            <br>
+            <br>
+                <input type="radio" name="typ" id="Student" >
+                <label for="Student">Student</label>
+                <input type="radio" name="typ" id="Personnel" >
+                <label for="Prsonnel">Personnel</label>
+                <input type="radio" name="typ" id="Other" >
+                <label for="Other">Other</label>
+                <input type="radio" name="typ" id="Alumni" >
+                <label for="Alumni">Alumni</label>
+               <br>
+               <label for="text">Student Number</label>
+               <input name="stdNo" type="text" >
+               <br>
+               <label for="password">Pin</label>
+               <input type="password" name="password" class="frm">(5 numeric digits.Do not start with a 0.)
+               <br>
+               <br>
+                <input type="submit" value="login" >
+               <vl>
+               <a target="_blank" href="ForgotPass.html">
+                <input type="button" value="Forgot PIN?">
+               </a>
+               <vl>
+               <a target="_blank" href="ChangePn.html">
+                <input type="button" value="Change PIN">
+               </a>
+               <vl>
+               <a target="_blank" href="rqstPn.html">
+                <input type="button" value="Request A PIN">
+               </a>
+
+        </fieldset>
+        </form>
+    </nav>
+<p style="display: inline-flex;" >
+    <section>
+        <fieldset>
+            <legend><b>Search a book:</b></legend>
+            <form name="search" action="Action_page.php" onsubmit="return validateForm1()" method="post">
+                <label for="text"><b><small>Here:</small></b></label>
+                <br><br>
+                <label for="initials">Intials </label>
+                <input type="text" name="intl" ><br><br>
+                <label for="Surname">Surname </label>
+                <input type="text" name="srn">
+                <br><br>
+                <label for="StudentNo">StudentNo </label>
+                <input type="number" name="std">
+                <br><br>
+                <label for="Faculty">Faculty </label>
+                <input type="text" >
+                <br><br>
+                <label for="department">Department </label>
+                <input type="text" >
+                <br>
+                <br>
+                <label for="SbjCd">Subject Code</label>
+                <input type="text" >
+                <br><br>
+                <a href="">
+                    <input type="submit" value="Submit" >
+                </a>
+                <a href="web.html">
+                    <input type="button" value="Back">
+                </a>
+            </form>
+        </fieldset>
+    </section>
+    <aside>
+        <fieldset>
+            <legend><b>Registering : </b></legend>
+            <label for="text"><b>Prospective Students</b></label><br><br>
+            <label for="text"><small>If you are a returning student,want to sell old books in the coming students in your institution, click the link below to get informatiion.</small></label>
+           <br><br> <a href="">Interested In Selling here</a><br><br>
+            <label for="text"><small>Follow All instructions in the links.</small></label><br>
+            <hr>
+            <br>
+            <a href="NewApp.html">New Applicants</a>
+            <br><br>
+            <label for="text"><small>Register here, get information and payments for each book</small></label>
+        </fieldset>
+    </aside>
+</p>
+<footer id="foot01" style="text-align: center; color: white;">
+       
+</footer>
+<script src="script.js"></script>
+    <article>
+        
+    </article>
+</body>
+</html>

@@ -1,0 +1,68 @@
+h1{
+    font-family:verdana;
+
+}
+header
+{
+    background-color:#73BA63;
+    font-family:verdana;
+    padding:1px;
+    height: 35px;
+    padding-left: 10px;
+
+}
+body
+{
+    background-color: white;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+a{
+    font-family:verdana;
+    font-size: small;
+    padding-right: 75px;
+}
+
+nav
+{
+    background-color: #00123F;
+    font-family:verdana;
+    font-size: xx-large;
+    color: white;
+    margin-top: -40px;
+}
+section{
+    color: navy;
+    margin-right: 95px;
+
+}
+aside
+{
+
+
+}
+td{
+    padding-right: -190px;
+}
+
+footer{
+    background: #73BA63 url(../../images/bg-nav.png) bottom left no-repeat;
+    background-color: #00123F;
+    margin-top: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1074px;
+    padding: 0.8em 0 1em 20px;
+    position: relative;
+    color: #a9c0db;
+    font-size: .8em;
+    padding: auto;
+    height: 20px;
+}
+p1{
+    background-color: #73BA63;
+    color: #73BA63;
+}
+li{
+    color: red;
+}
